@@ -1,0 +1,66 @@
+
+.jj-img {
+    
+    padding: 0 10px;
+  }
+  .jj-img img{
+    width: 100%;
+    height: auto;
+  }
+  .jj-col h1{
+    font-size: 20px;
+    line-height: 2.2em;
+    color: #ffaa00;
+  }
+
+  .jj-col {
+    max-width: 640px;
+    width: 100%;
+    padding: 0 10px 10px 10px;
+    margin-bottom: 60px;
+  }
+  
+  .jj-text {
+    max-width: 620px;
+    width: 100%;
+    padding: 0 10px 10px 10px;
+    border: 2px solid #ffaa00;
+  }
+  
+  .jj-text p {
+    max-width: 640px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 1.2em;
+  }
+  
+  .jj-text p.jj {
+    text-indent: 30px;
+    line-height: 25px;
+    font-size: 1.2em;
+    position: relative;
+    text-align: left;
+    color: #292929;
+  }
+  
+  .jj-text p.lx {
+    padding-top: 20px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 1.2em;
+  }
+  
+  .jj-text p.sm {
+    padding-top: 20px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 1.2em;
+  }
+  
+  .jj-text p.zr {
+    padding-top: 20px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 1.2em;
+  }

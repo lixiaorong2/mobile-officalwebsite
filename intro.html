@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
+		<title>公司简介</title>
+		<link rel="stylesheet" href="lib/css/svg.css"/>
+		<link rel="stylesheet" type="text/css" href="lib/css/jjnew.css" />
+		<script type="text/javascript" src="js/baidu.js" ></script>
+		<script type="text/javascript" src="lib/jquery-3.3.1.min.js" ></script>
+		<script src="js/snap.svg-min.js"></script>
+		<style>
+			#back{
+				position: absolute;top: 0;right: 0;
+				width: 50px;
+				height: 50px;
+				padding: 26px 15px 2px 19px;
+				opacity: 0;
+			}
+			#back img{width: 100%;}
+			#loader{
+				width: 100%;height: 100%;
+				position: absolute;
+				top: 0;left: 0;
+				z-index: 300;
+				opacity: 1;
+			}
+			#playvideo{
+				position: fixed;
+				top: 0;left: 0;
+			    width: 100%;
+			    height: 100%;
+			    background: #000;
+			    z-index: 100;
+			    display: none;
+			}
+			#playvideo .close{
+				width: 100%;
+				height: 50px;
+				padding: 15px;
+				text-align: right;
+			}
+			#playvideo .close img{
+				width: 16px;height: 16px;
+			}
+			#playvideo video{
+				margin-top: 150px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="playvideo">
+			<div class="close"><img src="lib/icon/closeW.png" /></div>
+			<video src="" width="100%" height="auto" controls>
+				<source src=""  type="video/mp4">
+				您的浏览器不支持播放该视频
+			</video>
+		</div>
+		<div id="loader" class="pageload-overlay" data-opening="M 40 -21.875 C 11.356078 -21.875 -11.875 1.3560784 -11.875 30 C -11.875 58.643922 11.356078 81.875 40 81.875 C 68.643922 81.875 91.875 58.643922 91.875 30 C 91.875 1.3560784 68.643922 -21.875 40 -21.875 Z">
+			<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 60" preserveAspectRatio="xMidYMid slice">
+				<path d="M40,30 c 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 Z"/>
+			</svg>
+		</div>
+		<div id="intro">
+			<h4>广州悦悦驾驶培训有限公司</h4>
+			<hr />
+			<p class="title">YY学车: 重新定义驾驶培训</p>		
+			<p>广州悦悦驾驶培训有限公司用互联网方式重新定义驾驶培训，彻底改写传统行业被诟病的服务问题。</p>
+			<p>我们希望通过互联网技术手段来提升高效供需匹配能力，优化整合了本地、外地的驾校、教练、名额等资源，以去中介化为目的，努力使成本降低。</p>
+			<div class="intovr">
+				<img src="lib/images/info1.png" />
+				<img src="lib/icon/introicon1.png" class="icon" />
+			</div>
+			<p>万事以服务为先，让学员享受更好的学车体验，提供专业的学车解决方案，从而营造人人相传的好口碑。</p>
+			<div class="dotted"></div>
+			<h3>三分钟带你看懂YY学车</h3>
+			<hr />
+			<p class="title">让天下没有难考的驾照</p>
+			<img src="lib/images/info2.png" />
+			<p>互联网能如何颠覆驾考体验？YY学车来告诉你。<br /> 首创自由约、自由学的学车模式，无论何时何地，用微信就能预约学车</p>
+			<img src="lib/images/info3.png" />
+			<p style="letter-spacing: 0;font-size: 18px;line-height: 24px;color: #333;">花三分钟时间，带你看懂YY学车&#8595&#8595</p>
+			<div class="intovideo">
+				<img src="lib/images/info4.png" />
+				<img src="lib/images/introicon2.png" class="icon" />
+			</div>
+			<p>YY学车成立2013年，目前全职员工超过600+人庞大团队。</p>
+			<img src="lib/images/info5.png" />
+			<h5>公司前台环境一览：</h5>
+			<img src="lib/images/info6.gif" />
+			<p>旗下有两个证件齐、全合法合规的控股驾校，是广州少数拥有自营场地和教练的互联网驾校平台。</p>
+			<img src="lib/images/info7.png" class="margin4" />
+			<img src="lib/images/info8.png" />
+			<p>已购买数百辆大众新款捷达、广汽传祺教练车，并设有六台豪华大巴考试来回接送。</p>
+			<img src="lib/images/info9.gif" />
+			<p>报名就享有主动权，你可以自主预约时间、场地、教练。一车2～3人，享受轻松舒适的练车体验，完善可靠的客服团队全程监管。</p>
+			<img src="img/info10.png" />
+			<p>拒绝学车过程教练吃、拿、卡、要等情况，绝无隐性收费。</p>
+			<img src="lib/images/info11.gif" />
+			<p>自营+合作教练总数超过1300位，采用学员评星+评论机制，让你选出好教练！学车更放心。</p>
+			<img src="lib/images/info12.png" class="margin4" />
+			<img src="lib/images/info13.png" />
+			<p>在这里可以更快拿到驾驶证，不用送礼、不用排队，手机即可快速预约考试。</p>
+			<img src="lib/images/info14.png" class="margin4" />
+			<img src="lib/images/info15.png" class="margin4" />
+			<img src="lib/images/info16.png" />
+			<p>想学车，用YY学车！这是一个新的学车时代！</p>
+			<p style="color: #FFAC00;">YY学车，让天下没有难考的驾照！</p>
+			<img src="lib/images/info17.gif" />
+			<p>现在报名学车，两个月拿证！</p>
+			<div style="width: 100%;height: 50px;"></div>
+		</div>		
+		<div id="back"><img src="lib/icon/close.png"/></div>
+		
+	</body>
+</html>
+<script src="js/classie.js"></script>
+<script src="js/svgLoader.js"></script>
+<script type="text/javascript" src="./wxConf/jweixin.js" ></script>
+<script type="text/javascript" src="js/wx.js" ></script>
+<script>
+	loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 500, easingIn : mina.easeinout } );
+	loader.show();
+	$(function(){
+		setTimeout(function(){
+			loader.hide();
+			$("#intro").css("opacity",1);
+			$("#back").css("opacity",1);
+		},1500);
+
+		$("#back").on("click",function(){
+			window.location.href="./index.html";
+		})
+		$("#intro .intovr").on("click",function(){
+			window.location.href="./vr.html";
+		})
+		$("#intro .intovideo").on("click",function(){
+			$('video').attr("src","./video/intro.mp4");
+			$('video').trigger('load');
+			$('#playvideo').show();
+			$('video').trigger('play');
+		})
+		
+		$("#playvideo .close").on("click",function(){
+			$('video').trigger('pause');
+			$('video').attr("src","");
+			$("#playvideo").hide();
+		})
+		
+	})
+	
+	
+</script>

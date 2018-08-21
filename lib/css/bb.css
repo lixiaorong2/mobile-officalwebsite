@@ -1,0 +1,160 @@
+.bb-tab-header{
+    width: 100%;
+}
+.bb-tab-hd{
+    height: 30px;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #828282;
+    letter-spacing: 0.1em;
+}
+
+.bb-tab-hd li:nth-of-type(1){
+    width: 50%;
+    float: left;
+    line-height: 2.5em;
+font-size: 0.9em;
+  }
+
+  .bb-tab-hd li:nth-of-type(2) {
+    width: 50%;
+    float: left;
+    line-height: 2.5em;
+font-size: 0.9em;
+  }
+
+.bb-tab-lis li { 
+    width: 100%;
+    display: none;
+    text-align: center;
+    
+  }
+
+  .bb-tab-lis .action {
+    display: block;
+  }
+
+.bb-ber-bot{
+    height: 30px;
+    border-bottom: 2px solid red;
+    color: red;
+}
+.bb-col1{
+  width: 100%;
+  margin: 1.2em 0;
+  display: flex;
+  height: 150px;
+}
+.bb-col1 h1{
+  line-height: 2em;
+  font-size: 1.5em;
+}
+.bb-col2{
+  line-height: 3em;
+  width: 100%;
+  text-align: right;
+  margin: 1.5em 2.5em;
+
+}
+.bb-col2 h1{
+  color: #fff;
+  letter-spacing: 0.1em;
+}
+.bb-col2 span{
+  font-size: 1.5em;
+  margin: 0 3px;
+}
+.bb-col2 p{
+  margin: 0 3px;
+}
+.bb-tab-lis li a img{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 150px;
+  max-width: 640px;
+}
+
+.bb-btn1{
+  color: #fff;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #ffaa00;
+  float: right;
+  margin-left: 20px;
+  padding: 5px 5px;
+  margin-top: 5px;
+}
+.bb-col2 p:nth-of-type(1){
+  color: #fff;
+}
+.bb-col2 p:nth-of-type(2) span:nth-of-type(1){
+font-size: 2.5em;
+color: #ffaa00;
+}
+/*班别*/
+
+.bt-box {
+  width: 300px;
+  height: 50px;
+  margin: 50px auto;
+  position: relative;
+  letter-spacing: 0.1em;
+}
+.bt-box-f{
+  padding: 0 5px;
+}
+.bt-box-f img{
+  width: 100%;
+  height: 160px;
+  position: relative;
+}
+
+.bt-box .bg-1 {
+  background: #62aeff;
+}
+
+.bt-box .bg-2 {
+  background: #fd933a;
+}
+
+.bt-box .bg-3 {
+  background: #a851fa;
+}
+
+.bt-box .xiaoA {
+  display: block;
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  color: white;
+  font: 17px/50px Helvetica, Verdana, sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+.bt-box .xiaoA,
+.bt-box-p {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bt-box .bt-box-p {
+  background: #222;
+  display: block;
+  height: 40px;
+  width: 180px;
+  margin: 0 0 0 10px;
+  text-align: center;
+  font: 12px/45px Helvetica, Verdana, sans-serif;
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  transition: margin 0.5s ease;
+}

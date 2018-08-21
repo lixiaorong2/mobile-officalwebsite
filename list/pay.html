@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+  <title>学车支付</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="applicable-device" content="pc,mobile">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <title>首页</title>
+  <link rel="stylesheet" href="../lib/css/style.css">
+  <link rel="stylesheet" href="../lib/css/pay.css">
+  <script type="text/javascript" src="../lib/jquery-1.8.3.min.js" ></script>
+</head>
+<body>
+  	
+<body>
+    <!--头部  star-->
+    <div class="header full">
+        <div class="logo">
+          <a href="../index.html">
+          <img src="../lib/icon/logo.png"></a>
+        </div>
+        <div class="log">
+          <div class="go-in">
+            <p><a href="list/dl.html">注册</a></p>
+          </div>
+          <div class="set-in">
+            <p><a href="list/dl.html">登录</a></p>
+          </div>
+        </div>
+      </div>
+        <div class="clear"></div>
+        <header style="color:#fff">
+            <a href="javascript:history.go(-1);">
+                <div class="_left"><img src="../lib/icon/left.png"></div><span>支付订单</span></a>
+        </header>
+        <!--头部 end-->
+        <!--内容 star-->
+        
+        <div class="pay-msg">
+            <form action="#" method="POST">
+       <ul>
+            <li style="height: 30px;line-height: 30px;"><label><p style="height: 30px; border-left: 4px solid #ffaa00;padding-left: 5px;">支付方式</p></label> </li>
+            <li><img src="../lib/icon/i1.png" alt="phone"> <input type="tel" placeholder="请输入您的手机号码"></li>
+            <li><img src="../lib/icon/i1.png" alt="phone"> <input type="tel" placeholder="请输入验证码"> <button type="submit" class="btn-c">获取验证码</button></li>
+            <li><img src="../lib/icon/i1.png" alt="phone"> <input type="tel" placeholder="请输入您的手机号码"></li>
+            <li><img src="../lib/icon/i1.png" alt="phone"> <input type="tel" placeholder="请输入您的手机号码"></li>
+        </ul>
+    </form>
+    </div>
+            
+            <!--支付 star-->
+            <div class="pay">
+                <div class="show">
+                        <li style="height: 30px;line-height: 30px;"><label><p style="margin-left: 10px;height: 30px; border-left: 4px solid #ffaa00;padding-left: 5px;">支付方式</p></label> </li>
+                    <li><label><img src="../lib/icon/weixin.png" >微信支付<input name="Fruit" type="radio" value="" checked/><span></span></label> </li>
+                    <li><label><img src="../lib/icon/zhifubao.png" >支付宝支付<input name="Fruit" type="radio" value="" /><span></span></label> </li>
+                    <li><label><img src="../lib/icon/yue.png" >余额支付<input name="Fruit" type="radio" value="" /><span></span></label> </li>
+                    
+                    <li class="center" style="border-bottom:none"><a href="#" onClick="showHideCode()">查看更多支付方式↓</a></li>
+                    <li style="border-bottom:none";><div class="foot-box">
+                            <div class="foot-pay">支付</div>
+                        </div></li>
+                </div>
+                <div class="showList" id = "showdiv" style="display:none;">
+                    <li><label><img src="../lib/icon/yinhang.png" >银行卡<input name="Fruit" type="radio" value="" /><span></span></label> </li>
+                    <li style="border-bottom:none"><label><img src="../lib/icon/weixin.png" >添加更多<input name="Fruit" type="radio" value=""/></label> </li>
+                    <li style="border-bottom:none"><div class="foot-box">
+                            <div class="foot-pay">支付</div>
+                        </div></li>
+                    
+                </div>
+            </div> 
+            
+        </div>
+        
+            
+       
+                
+        
+        <script type="text/javascript">
+        function showHideCode(){
+             $("#showdiv").toggle();
+        }
+        </script>
+        
+        </body>
+        </html>

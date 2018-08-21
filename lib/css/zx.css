@@ -1,0 +1,74 @@
+
+
+.z-head{
+   margin-top: 50px;
+   position: relative;
+   max-width: 640px;
+   margin: 0 10px;
+  float: left;
+margin: 10px 5px;
+}
+.tit-head p{
+    line-height: 2em;
+    position: relative;
+    text-align: center;
+    font-size: 1.4em;
+}
+.tit-msg{
+    border-bottom: 1px dashed #ffaa00;
+    margin: 0 20px;
+    line-height: 30px;
+    text-align: center;
+}
+.tit-msg p{
+  
+    display: inline;
+   padding: 0 5px;
+}
+.tit-qus p{
+   text-align: center;
+   padding: 10px 5px;
+   font-size: 1.5em;
+   font-weight: bold;
+   padding: 20px 30px;
+   color: #585858;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.tit-main{
+    margin-bottom: 80px;
+    border: 1px solid #ffaa00;
+    padding-bottom: 20px;
+}
+.tit-main ol{
+    list-style-type:none;
+    counter-reset:sectioncounter;
+    text-indent: 25px;
+    letter-spacing: 0.1em;
+    font-size: 1.2em;
+}
+.tit-main li{
+    padding: 5px 0;
+}
+.tit-main ol li:before {
+    content:counter(sectioncounter) "、"; 
+    counter-increment:sectioncounter;
+    color: #ffaa00;
+ }
+ .tit-buttom {
+    margin-top: 10px;
+}
+ .tit-buttom p{
+     display: block;
+ }
+ .tit-buttom a{
+    padding: 5px;
+}
+.tit-main li p{
+padding: 0 10px;
+margin: 0 10px;
+color: #585858;
+}
+.tit-main li span{
+    font-weight: bold;
+    line-height: 2.5em;
+}

@@ -1,0 +1,153 @@
+body {
+    font-size: 12px;
+    max-width: 640px;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  section {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .img img,
+  .img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  p {
+    margin: 0 auto
+  }
+  
+  .full {
+    height: 100%;
+    width: 100%;
+  }
+  
+  * {
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  /*页脚*/
+  
+  .contain {
+    background-size: 23px auto;
+  }
+  
+  footer {
+    width: 100%;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    position: fixed;
+    bottom: 0;
+    max-width: 640px;
+    ;
+    z-index: 10;
+    border-top: 1px solid #ddd;
+  }
+  
+  footer ul {
+    width: 100%;
+    line-height: 40px;
+    height: 40px;
+  }
+  
+  footer ul li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    color: #858585;
+    box-sizing: border-box;
+    height: 53px;
+  }
+  
+  /*footer ul li.active{background-color: #2097da;}*/
+  
+  footer li.last {
+    border: none;
+  }
+  
+  footer li a {
+    display: inline-block;
+    color: #828282;
+    font-size: 12px;
+    line-height: 13px;
+    text-decoration: none;
+  }
+  
+  footer li a:link,
+  footer li a:visited {
+    color: #828282;
+  }
+  
+  footer li span {
+    display: block;
+    height: 35px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  footer li span.bg1 {
+    background: url(../../icon/i1.png) center center no-repeat;
+    background-size: 23px auto;
+  }
+  
+  footer li span.bg3 {
+    background: url(../../icon/banbie.svg) center center no-repeat;
+    background-size: 23px auto;
+  }
+  
+  footer li span.bg4 {
+    background: url(../../icon/i1.png) center center no-repeat;
+    background-size: 23px auto;
+  }
+  
+  footer li span.bg5 {
+    background: url(../../icon/gonglue.svg) center center no-repeat;
+    background-size: 23px 25px;
+  }
+  
+  footer li span.bg6 {
+    background: url(../../icon/jianjie.svg) center center no-repeat;
+    background-size: 23px auto;
+  }
+  
+  
+  .footer ul li.active span.bg1 {
+    background: url(../../icon/logo3.svg) center no-repeat;
+    background-size: 23px auto;
+  }
+  
+  .footer ul li.active span.bg3 {
+    background: url(../../icon/banbiec.svg) center no-repeat;
+    background-size: 23px auto;
+  }
+  
+  .footer ul li.active span.bg4 {
+    background: url(../../icon/logo3.svg) center no-repeat;
+    background-size: 23px auto;
+  }
+  
+  .footer ul li.active span.bg5 {
+    background: url(../../icon/gongluec.svg) center no-repeat;
+    background-size: 23px 25px;
+  }
+  
+  .footer ul li.active span.bg6 {
+    background: url(../../icon/jianjiec.svg) center no-repeat;
+    background-size: 30px 30px;
+  }
+  
+  .footer ul li.active p {
+    color: #FAEB5A;
+  }
+  

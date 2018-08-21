@@ -1,0 +1,57 @@
+
+
+.cd-box{
+    max-width: 640px;
+    position: relative;
+   margin-bottom: 60px;
+}
+table{
+    display: block;
+    padding-left: 10px;
+    height: 63px;
+    position: relative;
+    border: 1px solid #ffaa00;
+    margin: 1em auto;
+}
+
+
+.cd-pic{
+    position: relative;
+    width: 54px;
+    
+    left: 0;
+    text-align: center;
+    top: 5px;
+    padding-right: 5px;
+ 
+}
+td.cd-tit{
+    color: #333;
+    font-weight: normal;
+    line-height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+.cd-loc{
+   max-width:640px;
+  float: left;
+    color: #bebebe;
+    padding-left: 10px;
+    
+    
+}
+.cd-loc img{
+    float: left;
+    width: 20px;
+    
+}
+.cd-loc span{
+    float: left;
+    padding-left: 10px;
+    white-space: nowrap;
+    padding-top:5px;
+}
